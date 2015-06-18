@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Marck+Script);
+body {
+	font-family: 'Marck Script', cursive;
+	/*text-align: center;*/
+	background-image: url(../images/woodwallpaper.jpg);
+	line-height: 24px;
+	text-align: center;
+}
+hr{
+	margin: 0;
+	border:0;
+	height: 3px;
+	background-color: #f7f7f7;
+/*	-webkit-box-shadow: 0px 1px 2px 0px rgba(255,255,255,0.67);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(255,255,255,0.67);
+	box-shadow: 0px 2px 1px 0px rgba(255,255,255,0.67);*/
+}
+h1.animation{
+	opacity: 0;
+	transform: translateY(-40px);
+}
+h1{
+	width: 100%;
+	border-top: solid 2px #f7f7f7;
+	border-bottom: solid 2px #f7f7f7;
+	padding: 28px;
+	font-size: 44px;
+	margin-top: 32px;
+	text-align: center;
+	opacity: 1;
+	transform: translateY(0);
+	transition: all 0.8s ease-in-out;
+}
+h2{
+	width: 100%;
+	font-size: 30px;
+	margin-top: 20px;
+}
+.row{
+	width:100%;
+	overflow: auto;
+	padding: 80px 0 80px 0;
+
+}
+.block, .largeBlock{
+	border: solid 2px #F99C35;
+	background-color: #F7F7F7;
+	height: 120px;
+	line-height: 120px;
+	vertical-align: middle;
+	/*text-align: center;*/
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+}
+.block{
+	width: 120px;
+}
+.largeBlock{
+	width: 240px;
+}
+p{
+	color:#C92049;
+	font-size: 20px;
+}
+#oneA, #twoA{
+	float: left;
+	position: relative;
+	margin-left: 15%;
+}
+#oneB{
+	float: right;
+	position: relative;
+	margin-right: 15%
+}
+#twoA{
+	float: left;
+	position: relative;
+	margin-left: 35%;
+}
+#twoB{
+	float: right;
+	position: relative;
+	margin-right: 35%
+}
+.animates{
+	transition: all 0.8s ease-in-out;
+}
+.fadeInUp{
+	opacity: 0;
+	transform: translateY(80px);
+}
+#threeA{
+	margin: 0 40px 0 40px;
+}
+#threeB{
+	margin: 80px 40px 0 40px;
+}
+#threeC{
+	margin: 160px 40px 0 40px;
+}
+
+#four{
+	margin: 0 auto 0 auto;
+	width: 480px;
+}
+
+.rowFive{
+	height:280px;
+	overflow: hidden;
+}
+#fiveA{
+	float: left;
+	margin-left: 20%;
+	margin-top: -300px;
+	transition: all 1s;
+}
+#fiveB{
+	float: right;
+	margin-right: 20%;
+	margin-top: 200px;
+	transition: all 2s;
+}
+
+#six{
+	opacity: 0;
+	transition: all 2s;
+}
+
+#seven{
+	width: 240px;
+	transition: all 2s;
+}
+.eight{
+	transition: all 1.4s;
+	margin: 0 40px 0 40px;
+}
+.rotateA{
+	transform: rotate(90deg);
+	opacity: 0;
+}
+.rotateB{
+	transform: rotate(-90deg);
+	opacity: 0;
+}
+.bottomBlock{
+	margin-bottom: 140px;
+}
+
+
